@@ -1,3 +1,8 @@
+/*Colors
+light beige/brown: eaaa7f
+blueish: 39add1
+*/
+
 body {
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.png') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
 }
 
 #container {
@@ -27,7 +32,7 @@ a {
   font-weight: 700;
   }
   a:hover {
-    color: #111;
+    color: #eaaa7f;
   }
 
 header {
@@ -80,3 +85,42 @@ footer {
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+/*Responsive logo design*/
+.logo-svg {
+  display: inline-block;
+  height: 120px;
+  width: 140px;
+  margin: 0 auto;
+}
+
+.small-logo-title {
+  display: none;
+  color: #eaaa7f;
+  margin: 0;
+}
+
+.corgi-img {
+  width: 170px;
+  height: 170px;
+}
+
+.st0 {
+  fill: #39add1;
+}
+
+/*******************************/
+
+
+/*Media querries for the site logo resizing*/
+
+ @media all and (max-width: 424px) {
+   .st1 {
+     display: none;
+   }
+
+   .small-logo-title {
+     display: block;
+   }
+
+ }
