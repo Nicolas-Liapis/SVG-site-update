@@ -31,9 +31,6 @@ a {
   color: #39add1;
   font-weight: 700;
   }
-  a:hover {
-    color: #eaaa7f;
-  }
 
 header {
   padding-top: 10px;
@@ -87,12 +84,6 @@ footer {
 }
 
 /*Responsive logo design*/
-.logo-svg {
-  display: inline-block;
-  height: 120px;
-  width: 140px;
-  margin: 0 auto;
-}
 
 .small-logo-title {
   display: none;
@@ -105,10 +96,17 @@ footer {
   height: 170px;
 }
 
-.st0 {
+/*Menu icons SVGs*/
+
+.icons {
   fill: #39add1;
+  color: #39add1;
 }
 
+.icons:hover a {
+  fill: #eaaa7f;
+  color: #eaaa7f;
+}
 /*******************************/
 
 
@@ -116,7 +114,7 @@ footer {
 
  @media all and (max-width: 424px) {
    .st1 {
-     display: none;
+     opacity: 0;
    }
 
    .small-logo-title {
