@@ -98,22 +98,24 @@ footer {
 
 /*Menu icons SVGs*/
 
-.icons {
+.icons a{
   fill: #39add1;
   color: #39add1;
+  transition: 1s ease-out;
 }
 
 .icons:hover a {
   fill: #eaaa7f;
   color: #eaaa7f;
+  transition: .5s;
 }
 /*******************************/
 
 
 /*Media querries for the site logo resizing*/
 
- @media all and (max-width: 424px) {
-   .st1 {
+ @media all and (max-width: 426px) {
+   .hide {
      opacity: 0;
    }
 
